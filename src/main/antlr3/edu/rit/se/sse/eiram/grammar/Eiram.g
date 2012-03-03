@@ -1,6 +1,10 @@
 grammar Eiram;
 
-@lexer::header  { package edu.rit.se.sse.eiram.grammar; }
+@lexer::header  { package edu.rit.se.sse.eiram.grammar;
+	import java.util.List;
+	import java.util.ArrayList;
+}
+
 @parser::header { package edu.rit.se.sse.eiram.grammar; }
 
 program	:	NL * line ( NL + line ) * NL ?
