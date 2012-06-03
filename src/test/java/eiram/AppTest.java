@@ -1,10 +1,10 @@
-package edu.rit.se.sse.eiram;
+package eiram;
 
 import org.junit.Test;
 import org.junit.Before;
 import org.junit.After;
 
-import static org.junit.Assert.*;
+import org.junit.Assert;
 
 /**
  * Dummy unit test.
@@ -16,6 +16,6 @@ public class AppTest {
    */
   @Test
   public void testApp() {
-    assertTrue(true);
+    Assert.assertTrue(true);
   }
 }
