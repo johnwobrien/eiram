@@ -1,2 +1,7 @@
 target
 *.swp
+
+# Eclipse Things
+.project
+.settings
+.classpath
